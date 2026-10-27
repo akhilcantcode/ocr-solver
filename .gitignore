@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+
+# Generated OCR results
+results.json
+
+# Input images (remove this line if you want to commit them)
+# captcha_images/
+
+# Model files and caches
+*.safetensors
+models/
+.cache/
